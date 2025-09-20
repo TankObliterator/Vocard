@@ -29,7 +29,7 @@ services:
             test: nc -z -v localhost 2333
             interval: 10s
             timeout: 5s
-            retries: 5
+            retries: 8
 
     spotify-tokener:
         image: ghcr.io/topi314/spotify-tokener:master
